@@ -9,34 +9,34 @@ help [command]
 – 引数にコマンド名が指定されない場合,処理可能な命令の一覧をコンマ区切りで返信
 – 引数にコマンド名が指定された場合,そのコマンドの書式を返信
 
-name <NEW NAME>
-– このコマントドを送信したクライアントの名前が指定された名前 (NEW NAME) に変更し,変更後 の名前をクライアントに返信
-– 既に同じ名前 (NEW NAME) のユーザが存在している場合,その旨を返信し,名前の変更はしない
+name <NEW NAME>  
+– このコマントドを送信したクライアントの名前が指定された名前 (NEW NAME) に変更し,変更後 の名前をクライアントに返信  
+– 既に同じ名前 (NEW NAME) のユーザが存在している場合,その旨を返信し,名前の変更はしない  
 – 既に同じ名前 (NEW NAME) のグループが存在している場合,その旨を返信し,名前の変更は行わない
 
-whoami
+whoami  
 – 現在設定されている名前を,クライアントに返信
 
-users
+users  
 – 現在チャットに参加しているメンバー全員の名前をクライアントに返信
 
-bye
+bye  
 – チャットを終了
 
-POST <MESSAGE>
+POST <MESSAGE>  
 – 現在,チャットに参加している全てのメンバーに(MESSAGE)を送信
 
-TELL <TO> <MESSAGE>
+TELL <TO> <MESSAGE>  
 – 指定された名前、グループ(TO)を持つユーザーに(MESSAGE) を送信
 
-CREATE <GROUP NAME>
+CREATE <GROUP NAME>  
 – 指定された名前のグループを作成し,送信ユーザーをグループのメンバーに登録
 
-GROUPS
+GROUPS  
 – グループ一覧をクライアントに返信
 
-MEMBERS <GROUP NAME>
+MEMBERS <GROUP NAME>  
 – 指定された(GROUP NAME)に所属するユーザーの一覧をクライアントに返信
 
-JOIN <GROUP NAME>
+JOIN <GROUP NAME>  
 – 指定されたグループのメンバーとする
