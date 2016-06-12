@@ -23,20 +23,20 @@ users
 bye  
 – チャットを終了
 
-POST <MESSAGE>  
+post <MESSAGE>  
 – 現在,チャットに参加している全てのメンバーに(MESSAGE)を送信
 
-TELL <TO> <MESSAGE>  
+tell <TO> <MESSAGE>  
 – 指定された名前、グループ(TO)を持つユーザーに(MESSAGE) を送信
 
-CREATE <GROUP NAME>  
+create <GROUP NAME>  
 – 指定された名前のグループを作成し,送信ユーザーをグループのメンバーに登録
 
-GROUPS  
+groups  
 – グループ一覧をクライアントに返信
 
-MEMBERS <GROUP NAME>  
+members <GROUP NAME>  
 – 指定された(GROUP NAME)に所属するユーザーの一覧をクライアントに返信
 
-JOIN <GROUP NAME>  
+join <GROUP NAME>  
 – 指定されたグループのメンバーとする
