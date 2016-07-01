@@ -1,3 +1,6 @@
+#ChatServer
+Javaで作成。ターミナル上でチャットをすることができる。
+
 #ChatServerの実行方法
 make : コンパイル  
 make test : 実行  
